@@ -1,0 +1,21 @@
+name: CloudTrade
+main: com.solarcloud7.cloudtrade.CloudTrade
+authors: [Solarcloud7]
+version: 1.5
+commands:
+  trade:
+    description: Runs tests for CloudTrade.
+    usage: "Usage: /trade [player name] to request a trade."
+  tradereload:
+    description: Runs tests for CloudTrade.
+    usage: "Usage: /trade [player name] to request a trade."
+permissions:
+    cloudtrade.cantrade:
+        description: If a player does not have this permission, or if it's set to false, they cannot trade nor use any commands.
+        default: false
+    cloudtrade.rightclickrequest:
+        description: If a player does not have this permission, or if it's set to false, they cannot right click, while sneaking, to request a player to trade.
+        default: false
+    cloudtrade.reload:
+        description:  The ability to reload the config
+        default: false

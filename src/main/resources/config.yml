@@ -1,0 +1,16 @@
+#CloudTrade Config
+PluginEnabled: true
+
+#set to 0 for unlimited range.
+max-distance: 10
+
+#must also set max distance to 0 to trade from different worlds
+tradeFromDifferentWorlds: false
+shift-right-click: true
+sprint-click: true
+useCommandsForTrading: true
+displayItemsAfterTrade: true
+bothPlayersMustHavePermissions: false
+tradeAcceptTimeout: 15
+logAllTrades: true
+
